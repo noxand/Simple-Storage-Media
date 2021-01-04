@@ -1,12 +1,8 @@
-# Simple Value Comparator
+# Simple Storage Media
 This is one of the task of Pirple Python is Easy online course.
 
-The task is to create a function that accepts 3 parameters and checks for equality between any two of them. The function should return True if 2 or more of the parameters are equal, and false is none of them are equal to any of the others.
+The task is to create a global variable called myUniqueList. It should be an empty list to start. Next, create a function that allows to add things to that list. Anything that's passed to this function should get added to myUniqueList, unless its value already exists in myUniqueList. If the value doesn't exist already, it should be added and the function should return True. If the value does exist, it should not be added, and the function should return False.
 
-Modify the function so that strings can be compared to integers if they are equivalent. For example, if the following values are passed to your function:
+Add some code below the function that tests it out. It should add a few different elements, showcasing the different scenarios, and then finally it should print the value of myUniqueList to show that it worked.
 
-```
-6,5,"5"
-```
-
-It should returns true instead of false.
+Add another function that pushes all the rejected inputs into a separate global array called myLeftovers. If someone tries to add a value to myUniqueList but it's rejected (for non-uniqueness), it should get added to myLeftovers instead.
