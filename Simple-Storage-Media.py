@@ -1,10 +1,3 @@
-'''
-Homework Assignment #4: Lists
-By: Hardefa Rogonondo
-LinkedIn: https://www.linkedin.com/in/hardefa-rogonondo/
-GitHub: https://github.com/noxand
-'''
-
 # Initialization
 myUniqueList = []
 myLeftovers = []
@@ -18,7 +11,7 @@ def AddtoList(add):
     else:
         myUniqueList.append(add)
 
-# Main
+# Main Program
 print("My Unique List = ", myUniqueList)
 print("Let's add something unique to the list!")
 add = input("Type something to add = ")
